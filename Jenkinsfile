@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('System') {
       steps {
-        isUnix()
+        echo 'Hello World'
       }
     }
   }
